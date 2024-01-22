@@ -1,4 +1,10 @@
-- hosts: 192.168.0.198, 192.168.0.84, 192.168.0.31, 192.168.0.237, 192.168.0.66
+- hosts: 
+  [server:children]
+  server host1=192.168.0.198
+  server host2=192.168.0.84 
+  server host3=192.168.0.31 
+  server host4=192.168.0.237 
+  server host5=192.168.0.66
 
   become: yes
   tasks:

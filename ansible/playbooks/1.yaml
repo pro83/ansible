@@ -1,4 +1,5 @@
-- hosts:
+-name: update
+hosts: 192.168.0.198
 
   [servers]
   192.168.0.198

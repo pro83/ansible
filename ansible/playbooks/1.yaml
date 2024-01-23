@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: lol
   
   become: yes
   tasks:
